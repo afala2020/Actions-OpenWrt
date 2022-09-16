@@ -1,7 +1,7 @@
 name: ipq-40xx_hiwifi-c526a
 
 on:
-  
+
   repository_dispatch:
   workflow_dispatch:
     inputs:
@@ -9,17 +9,6 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-  release:
-    types: published
-  push:
-    branches:
-      - master
-    paths:
-      - '.config'
-  #schedule:
-    #- cron: 0 20 * * *
-  watch:
-    types: started
 
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true

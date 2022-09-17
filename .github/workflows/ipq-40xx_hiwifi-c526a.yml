@@ -1,7 +1,6 @@
 name: ipq-40xx_hiwifi-c526a
 
 on:
-
   repository_dispatch:
   workflow_dispatch:
     inputs:
